@@ -1,0 +1,226 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+html, body { 
+
+	margin: 0 !important;
+
+	padding: 0 !important;
+
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+
+	height: 100%;
+	
+	min-height: 500px;
+	
+	width: auto;
+	
+	max-width: 100%;
+
+}
+
+img {
+	
+   max-width: 100%;
+	
+}
+
+
+.centrao { /*Itens dentro dele são totalmente centralizado*/
+
+	height: 80%;
+
+  	min-height: 80%;
+
+	display: -webkit-flex;
+
+	display: flex;
+
+	-webkit-align-items: center;
+
+	align-items: center;
+
+	-webkit-justify-content: center;
+
+	justify-content: center;
+
+}
+
+
+.rodapeFinal {
+
+	margin: 0;
+
+    bottom:0;
+
+    width:100%;
+
+	position: relative;
+	
+    z-index: 99999999;
+
+	
+
+	padding-top: 15px;
+
+	padding-bottom: 15px;
+
+	text-align: center;
+
+	background-color: #565565;
+
+	color: white;
+
+}
+
+
+.faixaTopo {
+
+	padding-top: 6px;
+
+	text-align: right;
+
+    height: 40px;
+
+    background-color: gray;
+	
+    padding-right: 20px;
+}
+
+
+
+
+/* ----- INDEX ----- */
+
+.cxBranca {
+
+    padding: 15px;
+
+    margin: 0 auto !important;
+
+    width: 350px;
+
+    height: 350px;
+
+    text-align: center;
+
+
+    background-color: white;
+
+    border-radius: 5px;
+
+    box-shadow: 4px 4px 20px -3px #000;
+
+}
+
+
+
+form#frmLogin input {
+
+    width: 100%;
+
+    max-width: 300px;
+
+    height: 30px;
+
+    font-size: 18px;
+
+}
+
+
+
+
+.txtLogin, .txtCadastro {
+
+    border: none;
+
+    padding: 5px;
+
+    margin-bottom: 10px;
+	
+    box-shadow: 1px 1px 5px #ccc;
+
+}
+
+
+
+#btnEntrar, #btnLimpar, #btnEnviar {
+
+    padding-top: 5px;
+
+    padding-bottom: 5px;
+
+    height: 40px !important;
+	
+	border: none;
+	
+	background: #208A14;
+	
+    color: #fff;
+	
+    font-weight: bold;
+	
+	transition: .4s;
+	
+	margin: 3px;
+}
+
+#btnEntrar:hover, #btnLimpar:hover, #btnEnviar:hover {
+	
+	background: #15710B;
+	
+	box-shadow: 0 0 0 2px #15710B;
+	
+}
+
+
+/* ----- CADASTRO ----- */
+
+.cxBranca2 {
+
+    padding: 15px;
+
+    margin: 0 auto !important;
+
+    width: 350px;
+
+    height: 350px;
+
+    text-align: center;
+
+
+    background-color: white;
+
+    border-radius: 5px;
+
+    box-shadow: 4px 4px 20px -3px #000;
+
+}
+
+
+
+form#frmCadastro input {
+
+    width: 100%;
+
+    max-width: 300px;
+
+    height: 30px;
+
+    font-size: 18px;
+
+}
+
+#frmCadastro h2 {
+	top: 0;
+}
+
+
+/* 
+********************************************************
+********************************************************
+********************************************************
+*/
